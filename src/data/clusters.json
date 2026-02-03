@@ -1,0 +1,184 @@
+{
+  "clusters": [
+    {
+      "id": "songdo-bio",
+      "name": "송도 바이오클러스터",
+      "region": "인천",
+      "coordinates": { "lat": 37.3900, "lng": 126.6400 },
+      "sectors": ["bio", "cmo", "pharma"],
+      "companies": ["samsung-biologics", "celltrion"],
+      "description": "글로벌 바이오 CMO 최대 집적지. 삼성바이오로직스와 셀트리온을 중심으로 바이오 생태계 형성. 바이오시밀러·CDMO 분야 세계적 경쟁력 보유.",
+      "keyMetrics": {
+        "totalCapa": "760,000L",
+        "employees": 15000,
+        "established": 2011,
+        "area": "66만㎡"
+      },
+      "visits": ["2023-12-samsung-bio", "2024-03-samsung-bio", "2024-02-celltrion"]
+    },
+    {
+      "id": "pyeongtaek-semi",
+      "name": "평택 반도체 클러스터",
+      "region": "경기",
+      "coordinates": { "lat": 36.9920, "lng": 127.1136 },
+      "sectors": ["semi"],
+      "companies": ["samsung-electronics"],
+      "description": "세계 최대 반도체 생산 캠퍼스. 삼성전자 평택 P1~P4 라인 집적.",
+      "keyMetrics": {
+        "employees": 30000,
+        "established": 2017,
+        "area": "289만㎡"
+      },
+      "visits": ["2024-06-pyeongtaek-semi"]
+    },
+    {
+      "id": "ochang-bio",
+      "name": "오창 바이오밸리",
+      "region": "충북",
+      "coordinates": { "lat": 36.7190, "lng": 127.4340 },
+      "sectors": ["bio", "pharma"],
+      "companies": ["sk-bioscience"],
+      "description": "충북 최대 바이오 산업단지. SK바이오사이언스 L하우스 등 백신·바이오 생산시설 집적.",
+      "keyMetrics": {
+        "employees": 5000,
+        "established": 2005,
+        "area": "42만㎡"
+      },
+      "visits": ["2024-06-ochang-bio"]
+    },
+    {
+      "id": "ulsan-petrochem",
+      "name": "울산 석유화학단지",
+      "region": "울산",
+      "coordinates": { "lat": 35.5015, "lng": 129.3778 },
+      "sectors": ["petrochemical"],
+      "companies": ["sk-energy", "s-oil"],
+      "description": "국내 최대 석유화학 클러스터. 정유-화학 수직 밸류체인 완성.",
+      "keyMetrics": {
+        "employees": 25000,
+        "established": 1962,
+        "area": "450만㎡"
+      },
+      "visits": ["2024-09-ulsan-petrochem"]
+    },
+    {
+      "id": "yeouido-finance",
+      "name": "여의도 금융 클러스터",
+      "region": "서울",
+      "coordinates": { "lat": 37.5219, "lng": 126.9245 },
+      "sectors": ["finance"],
+      "companies": [],
+      "description": "대한민국 금융의 중심. 증권사, 자산운용사, 금융투자협회 밀집.",
+      "keyMetrics": {
+        "employees": 50000,
+        "established": 1980
+      },
+      "visits": ["2024-11-yeouido-finance"]
+    },
+    {
+      "id": "icheon-semi",
+      "name": "SK하이닉스 이천 클러스터",
+      "region": "경기",
+      "coordinates": { "lat": 37.2750, "lng": 127.4350 },
+      "sectors": ["semi"],
+      "companies": ["sk-hynix"],
+      "description": "SK하이닉스 본사 및 메모리 반도체 핵심 생산 거점. HBM·DRAM·NAND 양산라인 밀집. AI 수요 급증에 따른 HBM 생산 CAPA 확대 중.",
+      "keyMetrics": {
+        "employees": 35000,
+        "established": 1983,
+        "area": "150만㎡"
+      },
+      "visits": ["2024-01-sk-hynix", "2024-07-sk-hynix"]
+    },
+    {
+      "id": "ulsan-auto",
+      "name": "울산 자동차 클러스터",
+      "region": "울산",
+      "coordinates": { "lat": 35.5500, "lng": 129.3200 },
+      "sectors": ["auto"],
+      "companies": ["hyundai-motor", "hyundai-mobis"],
+      "description": "현대차 그룹 최대 생산기지. 세계 최대 단일 자동차 공장과 부품 협력사 밀집. 전동화 전환 가속으로 EV 전용 라인 증설 중.",
+      "keyMetrics": {
+        "employees": 85000,
+        "established": 1968,
+        "area": "500만㎡"
+      },
+      "visits": ["2024-03-hyundai-ulsan", "2024-10-hyundai-mobis-ulsan"]
+    },
+    {
+      "id": "pohang-steel",
+      "name": "포항 철강 클러스터",
+      "region": "경북",
+      "coordinates": { "lat": 36.0190, "lng": 129.3650 },
+      "sectors": ["steel"],
+      "companies": ["posco-holdings"],
+      "description": "국내 최대 철강 생산 클러스터. 포스코 포항제철소를 중심으로 철강 밸류체인 형성. 2차전지 소재(양극재·음극재) 신사업 거점으로 전환 중.",
+      "keyMetrics": {
+        "employees": 20000,
+        "established": 1968,
+        "area": "900만㎡"
+      },
+      "visits": ["2024-04-posco-pohang"]
+    },
+    {
+      "id": "geoje-shipbuilding",
+      "name": "거제 조선 클러스터",
+      "region": "경남",
+      "coordinates": { "lat": 34.8800, "lng": 128.6200 },
+      "sectors": ["shipbuilding"],
+      "companies": ["samsung-heavy"],
+      "description": "대형 조선소 밀집 지역. 삼성중공업 거제조선소에서 LNG선·FLNG 등 고부가 선박 건조. 친환경 선박·해양플랜트 수주 호조.",
+      "keyMetrics": {
+        "employees": 15000,
+        "established": 1974,
+        "area": "400만㎡"
+      },
+      "visits": ["2024-08-samsung-heavy-geoje"]
+    },
+    {
+      "id": "yeosu-petrochem",
+      "name": "여수 석유화학단지",
+      "region": "전남",
+      "coordinates": { "lat": 34.7600, "lng": 127.6600 },
+      "sectors": ["petrochemical"],
+      "companies": ["yeosu-ncc", "lg-chem"],
+      "description": "국가산업단지 석유화학 핵심 거점. 여천NCC·LG화학 등 에틸렌 크래커 및 다운스트림 체인 밀집. 연간 에틸렌 생산 CAPA 국내 최대.",
+      "keyMetrics": {
+        "employees": 22000,
+        "established": 1967,
+        "area": "380만㎡"
+      },
+      "visits": ["2024-08-yeosu-petrochem"]
+    },
+    {
+      "id": "pangyo-it",
+      "name": "판교 IT클러스터",
+      "region": "경기",
+      "coordinates": { "lat": 37.3950, "lng": 127.1110 },
+      "sectors": ["finance", "infra"],
+      "companies": ["naver", "kakao"],
+      "description": "판교테크노밸리 IT/핀테크 허브. 네이버·카카오를 비롯한 국내 주요 IT기업 밀집. 핀테크·AI·클라우드 스타트업 생태계 활성화.",
+      "keyMetrics": {
+        "employees": 60000,
+        "established": 2012,
+        "area": "66만㎡"
+      },
+      "visits": ["2024-11-pangyo-it"]
+    },
+    {
+      "id": "asan-display",
+      "name": "아산 디스플레이 클러스터",
+      "region": "충남",
+      "coordinates": { "lat": 36.7900, "lng": 127.0050 },
+      "sectors": ["display"],
+      "companies": ["samsung-display"],
+      "description": "삼성디스플레이 OLED 생산거점. 중소형 OLED 패널 세계 최대 양산 캠퍼스. 차세대 QD-OLED 및 IT용 OLED 라인 증설 진행 중.",
+      "keyMetrics": {
+        "employees": 15000,
+        "established": 2012,
+        "area": "120만㎡"
+      },
+      "visits": ["2024-05-samsung-display-asan"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sectors": [
+    { "code": "bio", "name": "바이오/제약", "nameEn": "Bio/Pharma", "color": "#22c55e", "icon": "flask-conical", "parent": "manufacturing" },
+    { "code": "semi", "name": "반도체", "nameEn": "Semiconductor", "color": "#3b82f6", "icon": "cpu", "parent": "manufacturing" },
+    { "code": "battery", "name": "2차전지/EV", "nameEn": "Battery/EV", "color": "#a855f7", "icon": "battery-charging", "parent": "manufacturing" },
+    { "code": "display", "name": "디스플레이", "nameEn": "Display", "color": "#14b8a6", "icon": "monitor", "parent": "manufacturing" },
+    { "code": "shipbuilding", "name": "조선/해양", "nameEn": "Shipbuilding", "color": "#06b6d4", "icon": "ship", "parent": "manufacturing" },
+    { "code": "petrochemical", "name": "석유화학", "nameEn": "Petrochemical", "color": "#ef4444", "icon": "flame", "parent": "manufacturing" },
+    { "code": "steel", "name": "철강/소재", "nameEn": "Steel/Materials", "color": "#78716c", "icon": "hard-hat", "parent": "manufacturing" },
+    { "code": "auto", "name": "자동차/부품", "nameEn": "Automotive", "color": "#ec4899", "icon": "car", "parent": "manufacturing" },
+    { "code": "realestate", "name": "부동산", "nameEn": "Real Estate", "color": "#f97316", "icon": "building-2", "parent": "realestate" },
+    { "code": "finance", "name": "금융", "nameEn": "Finance", "color": "#eab308", "icon": "landmark", "parent": "finance" },
+    { "code": "infra", "name": "인프라", "nameEn": "Infrastructure", "color": "#6366f1", "icon": "train-front", "parent": "infra" },
+    { "code": "cmo", "name": "CMO/CDMO", "nameEn": "CMO/CDMO", "color": "#22c55e", "icon": "flask-conical", "parent": "manufacturing" },
+    { "code": "pharma", "name": "제약", "nameEn": "Pharma", "color": "#22c55e", "icon": "pill", "parent": "manufacturing" }
+  ]
+}
