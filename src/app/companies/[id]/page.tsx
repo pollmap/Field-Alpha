@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { ArrowLeft, MapPin, Building2, Calendar, Users, TrendingUp, LinkIcon } from "lucide-react";
-import { getCompanies, getCompanyById, getVisitsByCompany, getClusterById } from "@/lib/data";
+import { ArrowLeft, MapPin, Building2, Calendar, Users, TrendingUp, LinkIcon, Newspaper, FileText } from "lucide-react";
+import { getCompanies, getCompanyById, getVisitsByCompany, getClusterById, getNewsByCompany, getDisclosuresByCompany } from "@/lib/data";
 import SectorBadge from "@/components/common/SectorBadge";
 import VisitCard from "@/components/visit/VisitCard";
 
@@ -37,6 +37,8 @@ export default async function CompanyDetailPage({ params }: CompanyDetailPagePro
   const relatedCompanies = (company.relatedCompanies || [])
     .map((rid) => getCompanyById(rid))
     .filter(Boolean);
+  const news = getNewsByCompany(company.id);
+  const disclosures = getDisclosuresByCompany(company.id);
 
   return (
     <div className="min-h-screen bg-background">
@@ -97,9 +99,9 @@ export default async function CompanyDetailPage({ params }: CompanyDetailPagePro
           <div className="bg-card border border-border rounded-xl p-4">
             <div className="flex items-center gap-2 mb-2">
               <Building2 className="w-4 h-4 text-orange-400" />
-              <span className="text-xs text-muted-foreground">산업</span>
+              <span className="text-xs text-muted-foreground">답사 횟수</span>
             </div>
-            <SectorBadge sector={company.sector} />
+            <p className="text-sm font-semibold text-foreground">{visits.length}회</p>
           </div>
         </div>
 
@@ -108,6 +110,44 @@ export default async function CompanyDetailPage({ params }: CompanyDetailPagePro
           <h2 className="text-lg font-semibold text-foreground mb-3">기업 개요</h2>
           <p className="text-muted-foreground leading-relaxed">{company.description}</p>
         </div>
+
+        {/* Stock Chart Embed (TradingView) */}
+        {company.stockCode && (
+          <div className="mb-8">
+            <h2 className="text-lg font-semibold text-foreground mb-4">주가 차트</h2>
+            <div className="bg-card border border-border rounded-xl overflow-hidden">
+              <div className="px-4 pt-4 pb-2 border-b border-border">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-sm font-semibold text-foreground">{company.name}</p>
+                    <p className="text-xs text-muted-foreground">{company.stockCode}</p>
+                  </div>
+                  <div className="flex flex-wrap gap-1">
+                    {visits.map((v) => (
+                      <span key={v.id} className="text-[10px] bg-accent/10 text-accent border border-accent/20 px-1.5 py-0.5 rounded">
+                        {v.date}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="p-4">
+                <div className="aspect-[16/9] bg-muted/20 rounded-lg flex items-center justify-center border border-border">
+                  <div className="text-center">
+                    <TrendingUp className="w-8 h-8 text-muted-foreground/30 mx-auto mb-2" />
+                    <p className="text-sm text-muted-foreground">TradingView 차트</p>
+                    <p className="text-xs text-muted-foreground/60 mt-1">
+                      KRX:{company.stockCode.replace(".KS", "")}
+                    </p>
+                    <p className="text-[10px] text-muted-foreground/40 mt-2">
+                      실제 배포 시 TradingView 위젯이 로드됩니다
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Cluster Link */}
         {cluster && (
@@ -122,7 +162,7 @@ export default async function CompanyDetailPage({ params }: CompanyDetailPagePro
                   <div>
                     <h3 className="font-semibold text-foreground">{cluster.name}</h3>
                     <p className="text-xs text-muted-foreground">
-                      {cluster.region} · 기업 {cluster.companies.length}개
+                      {cluster.region} · {cluster.description.slice(0, 50)}...
                     </p>
                   </div>
                 </div>
@@ -131,12 +171,48 @@ export default async function CompanyDetailPage({ params }: CompanyDetailPagePro
           </div>
         )}
 
+        {/* News & Disclosures side by side */}
+        {(news.length > 0 || disclosures.length > 0) && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            {news.length > 0 && (
+              <div className="bg-card border border-border rounded-xl p-5">
+                <div className="flex items-center gap-2 mb-4">
+                  <Newspaper className="w-4 h-4 text-accent" />
+                  <h3 className="text-sm font-semibold text-foreground">관련 뉴스</h3>
+                </div>
+                <div className="space-y-3">
+                  {news.slice(0, 5).map((n, i) => (
+                    <a key={i} href={n.link} target="_blank" rel="noopener noreferrer" className="block group">
+                      <p className="text-sm text-foreground group-hover:text-accent transition-colors line-clamp-2">{n.title}</p>
+                      <p className="text-[10px] text-muted-foreground mt-0.5">{n.source} · {n.pubDate}</p>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+            {disclosures.length > 0 && (
+              <div className="bg-card border border-border rounded-xl p-5">
+                <div className="flex items-center gap-2 mb-4">
+                  <FileText className="w-4 h-4 text-blue-400" />
+                  <h3 className="text-sm font-semibold text-foreground">DART 공시</h3>
+                </div>
+                <div className="space-y-3">
+                  {disclosures.slice(0, 5).map((d, i) => (
+                    <a key={i} href={d.url} target="_blank" rel="noopener noreferrer" className="block group">
+                      <p className="text-sm text-foreground group-hover:text-blue-400 transition-colors line-clamp-2">{d.title}</p>
+                      <p className="text-[10px] text-muted-foreground mt-0.5">{d.date}</p>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* Related Companies */}
         {relatedCompanies.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-semibold text-foreground mb-4">
-              관련 기업
-            </h2>
+            <h2 className="text-lg font-semibold text-foreground mb-4">관련 기업</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {relatedCompanies.map((rc) =>
                 rc ? (

@@ -1,0 +1,185 @@
+{
+  "news": [
+    {
+      "companyId": "samsung-biologics",
+      "companyName": "삼성바이오로직스",
+      "title": "삼성바이오, 美 릴리와 5조원 규모 CDMO 계약 체결",
+      "description": "삼성바이오로직스가 미국 일라이 릴리와 약 5조원 규모의 바이오의약품 위탁생산(CDMO) 계약을 체결했다.",
+      "link": "https://www.hankyung.com",
+      "pubDate": "2025-01-25",
+      "source": "한국경제"
+    },
+    {
+      "companyId": "samsung-biologics",
+      "companyName": "삼성바이오로직스",
+      "title": "삼성바이오 4공장 GMP 인증 획득... 본격 가동 임박",
+      "description": "삼성바이오로직스 인천 송도 4공장이 미국 FDA의 cGMP 인증을 획득하며 본격 상업 생산 준비를 완료했다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-20",
+      "source": "매일경제"
+    },
+    {
+      "companyId": "samsung-biologics",
+      "companyName": "삼성바이오로직스",
+      "title": "삼성바이오, 2024년 매출 4조 돌파... 사상 최대",
+      "description": "삼성바이오로직스가 2024년 연간 매출 4조원을 돌파하며 사상 최대 실적을 기록했다.",
+      "link": "https://biz.chosun.com",
+      "pubDate": "2025-01-15",
+      "source": "조선비즈"
+    },
+    {
+      "companyId": "sk-hynix",
+      "companyName": "SK하이닉스",
+      "title": "SK하이닉스, HBM3E 12단 양산 본격화... 엔비디아 납품 확대",
+      "description": "SK하이닉스가 차세대 고대역폭메모리(HBM3E) 12단 제품의 양산을 본격 시작하며 엔비디아向 납품을 확대한다.",
+      "link": "https://biz.chosun.com",
+      "pubDate": "2025-01-28",
+      "source": "조선비즈"
+    },
+    {
+      "companyId": "sk-hynix",
+      "companyName": "SK하이닉스",
+      "title": "SK하이닉스 4분기 영업이익 8조원 돌파... AI반도체 수혜",
+      "description": "SK하이닉스가 2024년 4분기 영업이익 8조원을 기록하며 AI 반도체 수요 확대의 최대 수혜를 입증했다.",
+      "link": "https://www.hankyung.com",
+      "pubDate": "2025-01-24",
+      "source": "한국경제"
+    },
+    {
+      "companyId": "sk-hynix",
+      "companyName": "SK하이닉스",
+      "title": "SK하이닉스, 이천 M15X 팹 증설 결정... HBM 캐파 확대",
+      "description": "SK하이닉스가 이천캠퍼스에 M15X 팹 증설을 결정하며 HBM 생산능력을 대폭 확대한다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-18",
+      "source": "매일경제"
+    },
+    {
+      "companyId": "samsung-electronics",
+      "companyName": "삼성전자",
+      "title": "삼성전자, 평택 P4 라인 HBM 전환 투자 결정",
+      "description": "삼성전자가 평택캠퍼스 P4 라인 일부를 HBM 생산으로 전환하는 대규모 설비투자를 결정했다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-22",
+      "source": "매일경제"
+    },
+    {
+      "companyId": "samsung-electronics",
+      "companyName": "삼성전자",
+      "title": "삼성전자, 2025년 반도체 설비투자 50조원 계획",
+      "description": "삼성전자가 2025년 반도체 사업에 약 50조원의 설비투자를 단행할 계획이라고 밝혔다.",
+      "link": "https://www.donga.com",
+      "pubDate": "2025-01-20",
+      "source": "동아일보"
+    },
+    {
+      "companyId": "hyundai-motor",
+      "companyName": "현대자동차",
+      "title": "현대차, 울산공장 전기차 전용라인 증설 발표",
+      "description": "현대자동차가 울산 5공장에 전기차 전용 생산라인을 증설하며 2026년까지 EV 생산능력을 2배로 확대한다.",
+      "link": "https://www.donga.com",
+      "pubDate": "2025-01-15",
+      "source": "동아일보"
+    },
+    {
+      "companyId": "hyundai-motor",
+      "companyName": "현대자동차",
+      "title": "현대차, 2024년 글로벌 판매 422만대... 목표 달성",
+      "description": "현대자동차가 2024년 글로벌 판매 422만대를 기록하며 연간 목표를 달성했다.",
+      "link": "https://www.hankyung.com",
+      "pubDate": "2025-01-10",
+      "source": "한국경제"
+    },
+    {
+      "companyId": "posco-holdings",
+      "companyName": "포스코홀딩스",
+      "title": "포스코, 아르헨티나 리튬 추출 1단계 완공... 배터리 소재 밸류체인 강화",
+      "description": "포스코홀딩스가 아르헨티나 리튬 직접 추출(DLE) 플랜트 1단계 건설을 완료하며 2차전지 소재 수직계열화를 본격화한다.",
+      "link": "https://biz.chosun.com",
+      "pubDate": "2025-01-18",
+      "source": "조선비즈"
+    },
+    {
+      "companyId": "posco-holdings",
+      "companyName": "포스코홀딩스",
+      "title": "포스코, 광양 2차전지 양극재 공장 증설 착공",
+      "description": "포스코퓨처엠이 광양 2차전지 양극재 공장 3단계 증설에 착공했다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-12",
+      "source": "매일경제"
+    },
+    {
+      "companyId": "lg-energy",
+      "companyName": "LG에너지솔루션",
+      "title": "LG에너지, 4680 배터리 양산 라인 가동 시작",
+      "description": "LG에너지솔루션이 오창공장에서 테슬라向 4680 원통형 배터리 양산 라인 가동을 시작했다.",
+      "link": "https://www.hankyung.com",
+      "pubDate": "2025-01-12",
+      "source": "한국경제"
+    },
+    {
+      "companyId": "hd-hyundai-heavy",
+      "companyName": "HD현대중공업",
+      "title": "HD현대중공업, LNG운반선 10척 4.2조원 수주",
+      "description": "HD현대중공업이 유럽 선주사로부터 LNG운반선 10척, 총 4조2000억원 규모의 대형 수주에 성공했다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-20",
+      "source": "매일경제"
+    },
+    {
+      "companyId": "celltrion",
+      "companyName": "셀트리온",
+      "title": "셀트리온, 美 FDA 피하주사 허셉틴 바이오시밀러 승인 획득",
+      "description": "셀트리온이 미국 FDA로부터 피하주사형 허셉틴 바이오시밀러의 판매 승인을 획득하며 글로벌 시장을 확대한다.",
+      "link": "https://biz.chosun.com",
+      "pubDate": "2025-01-08",
+      "source": "조선비즈"
+    },
+    {
+      "companyId": "naver",
+      "companyName": "네이버",
+      "title": "네이버, AI 검색 '큐(Cue:)' 정식 출시... 검색 패러다임 전환",
+      "description": "네이버가 자체 초거대 AI '하이퍼클로바X' 기반 AI 검색 서비스 '큐'를 정식 출시하며 검색 시장 혁신에 나섰다.",
+      "link": "https://www.hankyung.com",
+      "pubDate": "2025-01-30",
+      "source": "한국경제"
+    },
+    {
+      "companyId": "s-oil",
+      "companyName": "S-Oil",
+      "title": "S-Oil 샤힌 프로젝트 진척률 45%... 2026년 완공 목표",
+      "description": "S-Oil의 9조원 규모 샤힌 프로젝트(석유화학 전환)가 진척률 45%를 기록하며 2026년 완공을 향해 순항 중이다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-17",
+      "source": "매일경제"
+    },
+    {
+      "companyId": "samsung-heavy",
+      "companyName": "삼성중공업",
+      "title": "삼성중공업, FLNG 최초 단독 수주 성공... 3.5조원 규모",
+      "description": "삼성중공업이 부유식 LNG 생산설비(FLNG)를 세계 최초로 단독 수주하며 고부가가치 해양플랜트 기술력을 입증했다.",
+      "link": "https://www.donga.com",
+      "pubDate": "2025-01-22",
+      "source": "동아일보"
+    },
+    {
+      "companyId": "lg-chem",
+      "companyName": "LG화학",
+      "title": "LG화학, 여수 NCC 증설 완료... 에틸렌 연산 320만톤 달성",
+      "description": "LG화학이 여수 석유화학단지 내 NCC 증설을 완료하며 에틸렌 연간 생산능력 320만톤을 달성했다.",
+      "link": "https://www.hankyung.com",
+      "pubDate": "2025-01-10",
+      "source": "한국경제"
+    },
+    {
+      "companyId": "lg-display",
+      "companyName": "LG디스플레이",
+      "title": "LG디스플레이, 파주 OLED TV 패널 P10 라인 투자 검토",
+      "description": "LG디스플레이가 파주 사업장에 차세대 OLED TV 패널 생산을 위한 P10 라인 투자를 검토 중이다.",
+      "link": "https://www.mk.co.kr",
+      "pubDate": "2025-01-14",
+      "source": "매일경제"
+    }
+  ],
+  "lastUpdated": "2025-02-01T00:00:00.000Z"
+}
