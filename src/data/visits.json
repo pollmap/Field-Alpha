@@ -1,0 +1,245 @@
+{
+  "visits": [
+    {
+      "id": "2023-12-samsung-bio",
+      "title": "삼성바이오로직스 첫 방문 - 즉흥 답사의 시작",
+      "date": "2023-12-15",
+      "location": {
+        "name": "삼성바이오로직스",
+        "coordinates": { "lat": 37.3897, "lng": 126.6378 },
+        "region": "인천",
+        "district": "연수구",
+        "address": "인천 연수구 송도과학로 300"
+      },
+      "cluster": "songdo-bio",
+      "sectors": ["bio", "cmo"],
+      "companies": ["samsung-biologics"],
+      "visitNumber": 1,
+      "duration": "2시간",
+      "weather": "흐림",
+      "summary": "첫 즉흥 현장 답사. 바이오 CMO 규모를 직접 체감. 3공장 풀가동 확인.",
+      "tags": ["CDMO", "첫방문", "송도"],
+      "photos": ["2023/12/samsung-bio/exterior.jpg", "2023/12/samsung-bio/gate.jpg"],
+      "hasInsights": true,
+      "stockCodes": ["207940.KS"],
+      "observations": [
+        "1~3공장 정상 가동 중 (환기 시스템 가동 확인)",
+        "정문 출입 차량 빈번, 물류 활동 활발",
+        "4공장 건설 부지 착공 초기 단계",
+        "인근 송도 신도시 바이오 클러스터 형성 중"
+      ],
+      "insights": [
+        "바이오 CMO 수요 확대 시 CAPA 증설이 핵심 경쟁력",
+        "4공장 완공 시 글로벌 1위 CAPA 확보 가능",
+        "송도 바이오 클러스터 시너지 기대"
+      ]
+    },
+    {
+      "id": "2024-03-samsung-bio",
+      "title": "삼성바이오로직스 4공장 건설 현황 재방문",
+      "date": "2024-03-15",
+      "location": {
+        "name": "삼성바이오로직스",
+        "coordinates": { "lat": 37.3897, "lng": 126.6378 },
+        "region": "인천",
+        "district": "연수구",
+        "address": "인천 연수구 송도과학로 300"
+      },
+      "cluster": "songdo-bio",
+      "sectors": ["bio", "cmo"],
+      "companies": ["samsung-biologics"],
+      "visitNumber": 2,
+      "duration": "3시간",
+      "weather": "맑음",
+      "summary": "4공장 건설 진행 상황 양호. 예정보다 빠른 진척. 물류 트럭 급증.",
+      "tags": ["CDMO", "증설", "수주", "재방문"],
+      "photos": ["2024/03/samsung-bio/factory4-overview.jpg", "2024/03/samsung-bio/logistics.jpg"],
+      "hasInsights": true,
+      "stockCodes": ["207940.KS"],
+      "observations": [
+        "4공장 외벽 공사 80% 완료 추정",
+        "클린룸 장비 반입 트럭 다수 확인",
+        "기존 1~3공장 정상 가동 중",
+        "정문 앞 물류 트럭 약 20대 대기",
+        "주변 원룸촌 공실 현수막 거의 없음"
+      ],
+      "insights": [
+        "4공장 예정대로 2025년 상반기 가동 시 CAPA 2배 증가",
+        "건설 속도 예상보다 빠름 (2개월 선행 추정)",
+        "물류 트럭 빈번 → 장비 반입 활발"
+      ],
+      "changes": [
+        "4공장 골조 → 외벽 마감 단계로 진전",
+        "주차장 확장 공사 완료",
+        "셔틀버스 노선 1개 추가"
+      ]
+    },
+    {
+      "id": "2024-06-pyeongtaek-semi",
+      "title": "삼성전자 평택 캠퍼스 - 세계 최대 반도체 단지",
+      "date": "2024-06-20",
+      "location": {
+        "name": "삼성전자 평택캠퍼스",
+        "coordinates": { "lat": 36.9920, "lng": 127.1136 },
+        "region": "경기",
+        "district": "평택시",
+        "address": "경기도 평택시 삼성로 1"
+      },
+      "cluster": "pyeongtaek-semi",
+      "sectors": ["semi"],
+      "companies": ["samsung-electronics"],
+      "visitNumber": 1,
+      "duration": "4시간",
+      "weather": "맑음",
+      "summary": "세계 최대 규모 반도체 캠퍼스 직접 확인. P3 라인 가동 중, P4 건설 진행.",
+      "tags": ["반도체", "HBM", "메모리", "파운드리"],
+      "photos": ["2024/06/pyeongtaek/campus-overview.jpg", "2024/06/pyeongtaek/p3-building.jpg"],
+      "hasInsights": true,
+      "stockCodes": ["005930.KS"],
+      "observations": [
+        "P3 라인 풀가동 (24시간 조명 확인)",
+        "P4 건설 현장 대규모 공사 진행 중",
+        "캠퍼스 주변 아파트 단지 대규모 입주",
+        "고덕국제신도시 상업시설 활성화",
+        "통근 셔틀버스 5분 간격 운행",
+        "인근 협력사 클러스터 형성"
+      ],
+      "insights": [
+        "HBM 수요 급증에 따른 P3 풀가동 확인",
+        "P4 건설 속도로 볼 때 2025년 하반기 가동 가능",
+        "고덕신도시 부동산 수혜 지속 전망"
+      ]
+    },
+    {
+      "id": "2024-06-ochang-bio",
+      "title": "오창 바이오밸리 - 충북 바이오 허브",
+      "date": "2024-06-25",
+      "location": {
+        "name": "오창과학산업단지",
+        "coordinates": { "lat": 36.7190, "lng": 127.4340 },
+        "region": "충북",
+        "district": "청주시",
+        "address": "충북 청주시 청원구 오창읍"
+      },
+      "cluster": "ochang-bio",
+      "sectors": ["bio", "pharma"],
+      "companies": ["sk-bioscience", "lg-chem-bio"],
+      "visitNumber": 1,
+      "duration": "5시간",
+      "weather": "맑음",
+      "summary": "충북 바이오 산업단지 전체 탐방. SK바이오사이언스 백신 공장, LG화학 바이오 시설 확인.",
+      "tags": ["바이오", "백신", "오창", "산업단지"],
+      "photos": ["2024/06/ochang/industrial-park.jpg", "2024/06/ochang/sk-bio.jpg"],
+      "hasInsights": true,
+      "stockCodes": ["302440.KS"],
+      "observations": [
+        "SK바이오사이언스 L하우스 정상 가동",
+        "LG화학 바이오 공장 증설 공사 진행",
+        "산업단지 내 바이오 중소기업 다수 입주",
+        "오창역 KTX 연결로 접근성 양호",
+        "인근 원룸/오피스텔 수요 증가 체감"
+      ],
+      "insights": [
+        "오창이 충북 바이오 허브로 성장 중",
+        "SK바이오사이언스 CDMO 사업 확장 가능성",
+        "KTX 접근성이 인력 확보에 유리"
+      ]
+    },
+    {
+      "id": "2024-09-ulsan-petrochem",
+      "title": "울산 석유화학단지 - 정유/화학 밸류체인",
+      "date": "2024-09-10",
+      "location": {
+        "name": "울산석유화학단지",
+        "coordinates": { "lat": 35.5015, "lng": 129.3778 },
+        "region": "울산",
+        "district": "남구",
+        "address": "울산 남구 여천동"
+      },
+      "cluster": "ulsan-petrochem",
+      "sectors": ["petrochemical"],
+      "companies": ["sk-energy", "s-oil"],
+      "visitNumber": 1,
+      "duration": "6시간",
+      "weather": "맑음",
+      "summary": "국내 최대 석유화학 클러스터 현장 확인. S-Oil 샤힌 프로젝트 건설 현장 방문.",
+      "tags": ["정유", "화학", "샤힌프로젝트", "울산"],
+      "photos": ["2024/09/ulsan/refinery-overview.jpg", "2024/09/ulsan/shaheen-construction.jpg"],
+      "hasInsights": true,
+      "stockCodes": ["010950.KS", "010950.KS"],
+      "observations": [
+        "S-Oil 샤힌 프로젝트 건설 현장 대규모 공사 중",
+        "SK에너지 정유 공장 정상 가동",
+        "단지 내 원료 파이프라인 네트워크 확인",
+        "물류 트럭 및 유조차 빈번한 이동",
+        "인근 주거지역 소음/환경 이슈 체감"
+      ],
+      "insights": [
+        "샤힌 프로젝트 완공 시 S-Oil 체질 개선 기대",
+        "정유 → 화학 전환 트렌드 현장에서 확인",
+        "울산 석화단지 인프라 우위는 여전"
+      ]
+    },
+    {
+      "id": "2024-09-godeok-newtown",
+      "title": "고덕국제신도시 - 삼성 평택 배후도시",
+      "date": "2024-09-12",
+      "location": {
+        "name": "고덕국제신도시",
+        "coordinates": { "lat": 36.9750, "lng": 127.0850 },
+        "region": "경기",
+        "district": "평택시",
+        "address": "경기도 평택시 고덕동"
+      },
+      "sectors": ["realestate"],
+      "companies": [],
+      "visitNumber": 1,
+      "duration": "3시간",
+      "weather": "흐림",
+      "summary": "삼성 평택캠퍼스 배후 신도시. 대규모 입주 진행 중, 상업시설 활성화 초기 단계.",
+      "tags": ["신도시", "부동산", "삼성배후", "평택"],
+      "photos": ["2024/09/godeok/apartment-complex.jpg", "2024/09/godeok/commercial-area.jpg"],
+      "hasInsights": true,
+      "observations": [
+        "대규모 아파트 단지 입주 90% 이상 완료",
+        "상업시설 1층 입점률 약 70% 추정",
+        "학원가 형성 시작",
+        "SRT 평택지제역 접근성 양호",
+        "삼성 통근버스 정류장 다수 확인"
+      ],
+      "insights": [
+        "삼성전자 고용 인원 증가에 따른 부동산 수요 지속",
+        "상업시설 완전 활성화까지 1~2년 소요 예상",
+        "P4 가동 시 추가 인구 유입 기대"
+      ]
+    },
+    {
+      "id": "2024-11-yeouido-finance",
+      "title": "여의도 금융가 탐방 - IB/자산운용 현장",
+      "date": "2024-11-08",
+      "location": {
+        "name": "여의도 금융투자협회",
+        "coordinates": { "lat": 37.5219, "lng": 126.9245 },
+        "region": "서울",
+        "district": "영등포구",
+        "address": "서울 영등포구 여의나루로 76"
+      },
+      "cluster": "yeouido-finance",
+      "sectors": ["finance"],
+      "companies": [],
+      "visitNumber": 1,
+      "duration": "4시간",
+      "weather": "맑음",
+      "summary": "여의도 금융가 탐방. 증권사/자산운용사 밀집 지역 체감. 금융투자협회 방문.",
+      "tags": ["금융", "증권", "여의도", "IB"],
+      "photos": ["2024/11/yeouido/finance-district.jpg"],
+      "hasInsights": false,
+      "observations": [
+        "증권사 본사 빌딩 다수 밀집",
+        "점심시간 금융권 종사자 이동 활발",
+        "IFC/파크원 등 프라임 오피스 풀가동",
+        "여의도 공원 주변 리모델링 진행"
+      ]
+    }
+  ]
+}

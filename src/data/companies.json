@@ -1,0 +1,74 @@
+{
+  "companies": [
+    {
+      "id": "samsung-biologics",
+      "name": "삼성바이오로직스",
+      "nameEn": "Samsung Biologics",
+      "stockCode": "207940.KS",
+      "sector": "bio",
+      "cluster": "songdo-bio",
+      "headquarters": "인천 연수구",
+      "founded": 2011,
+      "employees": 7000,
+      "description": "글로벌 1위 바이오 CDMO. 송도에 4개 공장 보유, 총 CAPA 76만L.",
+      "visits": ["2023-12-samsung-bio", "2024-03-samsung-bio"],
+      "relatedCompanies": ["sk-bioscience"]
+    },
+    {
+      "id": "samsung-electronics",
+      "name": "삼성전자",
+      "nameEn": "Samsung Electronics",
+      "stockCode": "005930.KS",
+      "sector": "semi",
+      "cluster": "pyeongtaek-semi",
+      "headquarters": "경기 수원시",
+      "founded": 1969,
+      "employees": 120000,
+      "description": "세계 1위 메모리 반도체 기업. 평택에 세계 최대 반도체 캠퍼스 운영.",
+      "visits": ["2024-06-pyeongtaek-semi"],
+      "relatedCompanies": []
+    },
+    {
+      "id": "sk-bioscience",
+      "name": "SK바이오사이언스",
+      "nameEn": "SK Bioscience",
+      "stockCode": "302440.KS",
+      "sector": "bio",
+      "cluster": "ochang-bio",
+      "headquarters": "경기 성남시",
+      "founded": 2018,
+      "employees": 1500,
+      "description": "백신 전문 바이오 기업. 오창에 L하우스 생산시설 보유.",
+      "visits": ["2024-06-ochang-bio"],
+      "relatedCompanies": ["samsung-biologics"]
+    },
+    {
+      "id": "sk-energy",
+      "name": "SK에너지",
+      "nameEn": "SK Energy",
+      "stockCode": "096770.KS",
+      "sector": "petrochemical",
+      "cluster": "ulsan-petrochem",
+      "headquarters": "서울 종로구",
+      "founded": 1962,
+      "employees": 5000,
+      "description": "국내 대표 정유사. 울산에 대규모 정유/화학 시설 운영.",
+      "visits": ["2024-09-ulsan-petrochem"],
+      "relatedCompanies": ["s-oil"]
+    },
+    {
+      "id": "s-oil",
+      "name": "S-Oil",
+      "nameEn": "S-Oil",
+      "stockCode": "010950.KS",
+      "sector": "petrochemical",
+      "cluster": "ulsan-petrochem",
+      "headquarters": "서울 마포구",
+      "founded": 1976,
+      "employees": 3000,
+      "description": "아람코 계열 정유사. 울산에서 샤힌 프로젝트(석유화학 전환) 진행 중.",
+      "visits": ["2024-09-ulsan-petrochem"],
+      "relatedCompanies": ["sk-energy"]
+    }
+  ]
+}

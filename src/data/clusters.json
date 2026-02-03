@@ -1,0 +1,79 @@
+{
+  "clusters": [
+    {
+      "id": "songdo-bio",
+      "name": "송도 바이오클러스터",
+      "region": "인천",
+      "coordinates": { "lat": 37.3900, "lng": 126.6400 },
+      "sectors": ["bio", "cmo", "pharma"],
+      "companies": ["samsung-biologics"],
+      "description": "글로벌 바이오 CMO 최대 집적지. 삼성바이오로직스를 중심으로 바이오 생태계 형성.",
+      "keyMetrics": {
+        "totalCapa": "760,000L",
+        "employees": 10000,
+        "established": 2011,
+        "area": "66만㎡"
+      },
+      "visits": ["2023-12-samsung-bio", "2024-03-samsung-bio"]
+    },
+    {
+      "id": "pyeongtaek-semi",
+      "name": "평택 반도체 클러스터",
+      "region": "경기",
+      "coordinates": { "lat": 36.9920, "lng": 127.1136 },
+      "sectors": ["semi"],
+      "companies": ["samsung-electronics"],
+      "description": "세계 최대 반도체 생산 캠퍼스. 삼성전자 평택 P1~P4 라인 집적.",
+      "keyMetrics": {
+        "employees": 30000,
+        "established": 2017,
+        "area": "289만㎡"
+      },
+      "visits": ["2024-06-pyeongtaek-semi"]
+    },
+    {
+      "id": "ochang-bio",
+      "name": "오창 바이오밸리",
+      "region": "충북",
+      "coordinates": { "lat": 36.7190, "lng": 127.4340 },
+      "sectors": ["bio", "pharma"],
+      "companies": ["sk-bioscience", "lg-chem-bio"],
+      "description": "충북 최대 바이오 산업단지. SK바이오사이언스, LG화학 바이오 사업부 집적.",
+      "keyMetrics": {
+        "employees": 5000,
+        "established": 2005,
+        "area": "42만㎡"
+      },
+      "visits": ["2024-06-ochang-bio"]
+    },
+    {
+      "id": "ulsan-petrochem",
+      "name": "울산 석유화학단지",
+      "region": "울산",
+      "coordinates": { "lat": 35.5015, "lng": 129.3778 },
+      "sectors": ["petrochemical"],
+      "companies": ["sk-energy", "s-oil"],
+      "description": "국내 최대 석유화학 클러스터. 정유-화학 수직 밸류체인 완성.",
+      "keyMetrics": {
+        "employees": 25000,
+        "established": 1962,
+        "area": "450만㎡"
+      },
+      "visits": ["2024-09-ulsan-petrochem"]
+    },
+    {
+      "id": "yeouido-finance",
+      "name": "여의도 금융 클러스터",
+      "region": "서울",
+      "coordinates": { "lat": 37.5219, "lng": 126.9245 },
+      "sectors": ["finance"],
+      "companies": [],
+      "description": "대한민국 금융의 중심. 증권사, 자산운용사, 금융투자협회 밀집.",
+      "keyMetrics": {
+        "employees": 50000,
+        "established": 1980
+      },
+      "visits": ["2024-11-yeouido-finance"]
+    }
+  ]
+}
